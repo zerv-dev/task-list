@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.noTasksMessage{
+  font-size: 3rem;
+}
+
+.newTaskForm__description{
+  min-height: 1rem;
+}
+form{
+  background-color: white;
+  padding: 1rem 5rem ;
+  border-radius: 1rem;
+  width: 30rem;
+
+}
+
+.taskItem{
+  background-color: white;
+  min-width: 15rem;
+  word-break: break-all;
+  box-shadow: 6px 5px 10px;
+  /* max-width: 16rem; */
+  margin-bottom: 1rem;
+}
+
+.taskItem__title{
+  color: black;
+  font-size: 1.2rem;
+  
+}
+.taskItem__dueDate{
+  color: black;
+  font-size: 1rem;
+}
+.taskItem__header{
+  display: flex;
+  color: black;
+  padding: 0 .5rem;
+  background-color: #e5e5e5;
+  flex-direction: column;
+  align-items: baseline;
+}
+.taskItem__footer{
+  display: flex;
+  padding: .5rem;
+  background-color: #e5e5e5;
+  justify-content: flex-end
+}
+
+.taskItem__description{
+  white-space: pre-wrap;
+  text-align: left;
+  min-height: 2rem;
+  font-size: 1rem;
+  padding: 1rem;
+}
